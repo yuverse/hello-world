@@ -8,7 +8,10 @@
           "minNumFindings": 1,
           "minConfidence": "POSSIBLE",
           "detectorType": "NIGHTFALL_DETECTOR",
-          "nightfallDetector": "EMAIL_ADDRESS"
+          "nightfallDetector": "EMAIL_ADDRESS",
+          "nightfallDetector": "PHONE_NUMBER",
+          "nightfallDetector": "US_SOCIAL_SECURITY_NUMBER",
+          
         }
       ]
     }

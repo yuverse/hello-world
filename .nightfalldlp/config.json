@@ -15,11 +15,15 @@
           "minConfidence": "POSSIBLE",
           "detectorType": "NIGHTFALL_DETECTOR",
           "nightfallDetector": "CREDIT_CARD_NUMBER"
+        },
+        {
+          "minNumFindings": 1,
+          "minConfidence": "POSSIBLE",
+          "detectorType": "NIGHTFALL_DETECTOR",
+          "nightfallDetector": "US_SOCIAL_SECURITY_NUMBER"
         }
 
       ]
     }
   ]
 }
-
-

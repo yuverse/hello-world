@@ -9,7 +9,7 @@
           "minConfidence": "POSSIBLE",
           "detectorType": "NIGHTFALL_DETECTOR",
           "nightfallDetector": "EMAIL_ADDRESS"
-        }
+        },
         {
           "minNumFindings": 1,
           "minConfidence": "POSSIBLE",
@@ -21,6 +21,5 @@
     }
   ]
 }
-
 
 

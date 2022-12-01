@@ -21,7 +21,20 @@
           "minConfidence": "POSSIBLE",
           "detectorType": "NIGHTFALL_DETECTOR",
           "nightfallDetector": "US_SOCIAL_SECURITY_NUMBER"
+        },
+
+        {
+          "detectorType": "WORD_LIST",
+          "wordList": {
+            "values": ["Aggies", "Gigem", "Sooners", "Boomer Sooner"],
+            "isCaseSensitive": false
+          },
+          "displayName": "simpleWordListKeyDetector",
+          "minNumFindings": 1,
+          "minConfidence": "POSSIBLE"
         }
+
+        
 
       ]
     }

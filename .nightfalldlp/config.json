@@ -1,6 +1,3 @@
-
-
-
 {
   "detectionRules": [
     {
@@ -19,19 +16,11 @@
           "detectorType": "NIGHTFALL_DETECTOR",
           "nightfallDetector": "CREDIT_CARD_NUMBER"
         }
-        {
-          "detectorType": "WORD_LIST",
-          "wordList": {
-            "values": ["Aggies", "Gigem", "Sooners", "Boomer Sooner"],
-            "isCaseSensitive": false
-          },
-          "displayName": "simpleWordListKeyDetector",
-          "minNumFindings": 1,
-          "minConfidence": "POSSIBLE"
-        }
 
       ]
     }
   ]
 }
+
+
 

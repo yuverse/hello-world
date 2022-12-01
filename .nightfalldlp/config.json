@@ -1,9 +1,16 @@
 {
-  "detectors": [
-    "API_KEY",
-    "CRYPTOGRAPHIC_KEY",
-    "RANDOMLY_GENERATED_TOKEN",
-    "EMAIL_ADDRESS",
-    "IP_ADDRESS"
+  "detectionRules": [
+    {
+      "name": "my rule",
+      "logicalOp": "ANY",
+      "detectors": [
+        {
+          "minNumFindings": 1,
+          "minConfidence": "POSSIBLE",
+          "detectorType": "NIGHTFALL_DETECTOR",
+          "nightfallDetector": "EMAIL_ADDRESS"
+        }
+      ]
+    }
   ]
 }

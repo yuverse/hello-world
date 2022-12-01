@@ -1,17 +1,10 @@
+
 {
-  "detectionRules": [
-    {
-      "name": "my rule",
-      "logicalOp": "ANY",
-      "detectors": [
-        {
-           "API_KEY",
+  "detectors": [
+    "API_KEY",
     "CRYPTOGRAPHIC_KEY",
     "RANDOMLY_GENERATED_TOKEN",
     "EMAIL_ADDRESS",
     "IP_ADDRESS"
-        }
-      ]
-    }
   ]
 }
